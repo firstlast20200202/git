@@ -2,3 +2,11 @@ download code:
 git clone [url]
 
 version control my own code:
+1. create a folder myProject locally and get into the folder in terminal
+2. git init  //initialise an empty git repo in /myProject/.git/
+3. 
+
+
+
+
+
