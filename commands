@@ -4,7 +4,10 @@ git clone [url]
 version control my own code:
 1. create a folder myProject locally and get into the folder in terminal
 2. git init  //initialise an empty git repo in /myProject/.git/
-3. 
+3. in myProject folder create a file of your code, say, main.py, then save
+4. upload your code: git add .  //this . includes all the files and non-empty folders in the current folder myProject
+5. git commit -m "XXX"  //upload your code
+6. git log   //verify 
 
 
 
