@@ -1,3 +1,5 @@
+//tutorial link: https://www.bilibili.com/video/BV1Cr4y1J7iQ?spm_id_from=333.788.player.switch
+
 download code:
 git clone [url]
 
@@ -8,7 +10,10 @@ version control my own code:
 4. upload your code: git add .  //this . includes all the files and non-empty folders in the current folder myProject
 5. git commit -m "XXX"  //upload your code
 6. git log   //verify 
-
+7. edit in main.py locally   //if you screw it up
+8. git checkout HEAD main.py    //copy the last uploaded version to the local machine, aka recover the file to the last uploaded version
+9. git add main.py     //only upload this particular file, excluding all the other files in the folder
+10. git commit -m "XXX"
 
 
 
