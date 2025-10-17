@@ -1,0 +1,20 @@
+configuration user information:
+$ git config --global user.name "XXX"
+$ git config --global user.email "XX@XX.com"
+check:
+$ git config --global user.name
+$ git config --global user.email
+
+to create nicknames for commonly used commands:
+create a file under drive C:/user/username
+$ touch ~/.bashrc    //touch .bashrc is to create it on desktop
+open .bashrc file in local machine, add:
+alias git-log='git log --pretty=oneline --all --graph --abbrev-commit'
+alias ll='ls -al'
+
+create a repo locally:
+create a folder in local machine
+get into the folder and right click then select 'gitBash':
+$ git init
+$ ll
+it shows up .git/ which means it's been created successfully
