@@ -1,1 +1,3 @@
 pwd --list which folder you are in
+
+touch new_file.txt  --create a new file
