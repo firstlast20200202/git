@@ -1,5 +1,6 @@
 pwd --list which folder you are in
 
-touch new_file.txt  --create a new file
+touch newFile.txt  --create a new file
 
 cat file.txt  --display file contents
+
