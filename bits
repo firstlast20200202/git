@@ -4,3 +4,4 @@ touch newFile.txt  --create a new file
 
 cat file.txt  --display file contents
 
+git checkout <branch-name>: Switches to a different branch.
