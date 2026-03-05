@@ -1,4 +1,4 @@
-git fetch
+git fetch    //
 git restore . \build\setup-iis-local.ps1
 git stash
 git pull
