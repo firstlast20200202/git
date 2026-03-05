@@ -1,6 +1,6 @@
-git fetch    //
-git restore . \build\setup-iis-local.ps1
-git stash
+git fetch    //fetching what's changed
+git restore . \build\setup-iis-local.ps1    //remove changes
+git stash    //put changes into a temporary location
 git pull
 git checkout <branch>
 git checkout -b '<new branch name>'
