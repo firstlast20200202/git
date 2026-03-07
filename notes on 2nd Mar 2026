@@ -4,3 +4,5 @@ git stash    //put changes into a temporary location
 git pull    //
 git checkout <branch>    //
 git checkout -b '<new branch name>'    //
+
+
