@@ -1,0 +1,12 @@
+create:
+git init
+git add . 
+git status     //check .ignore
+git commit -m "init"
+git remote add origin https://github.com/firstlast20200202/LangChain-example-2.git
+git push -u origin main
+
+edit:
+git add .
+git commit -m "edit"
+git push 
