@@ -10,3 +10,10 @@ edit:
 git add .
 git commit -m "edit"
 git push 
+
+sync bitbucket:
+get into the repo in local machine
+$ git status    //it shows which branch I'm on
+$ git checkout release/xxx.xxx.~~~~~    //switch branch
+$ git pull      //sync
+
