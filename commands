@@ -17,3 +17,8 @@ $ git status    //it shows which branch I'm on
 $ git checkout release/xxx.xxx.~~~~~    //switch branch
 $ git pull      //sync
 
+fix an issue:
+$ git status    //check modified files
+$ git checkout -b "<new-branch-name>"    //create a new branch and switch to it
+Commit in VS code UI with messages
+create a pull request in bitbucket
