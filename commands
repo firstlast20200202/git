@@ -9,6 +9,8 @@ git push -u origin main
 edit:
 git add .
 git commit -m "edit"
+OR
+git commit -am "edit"    //-a means add
 git push 
 
 sync bitbucket:
