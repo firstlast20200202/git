@@ -15,12 +15,18 @@ git push --set-upstream origin XXXXXXXXXXXXXXX
 
 sync bitbucket:
 get into the repo in local machine
+$ git fetch
+$ git pull      //sync
 $ git status    //it shows which branch I'm on
 $ git checkout release/xxx.xxx.~~~~~    //switch branch
-$ git pull      //sync
 
 fix an issue:
 $ git status    //check modified files
+$ git diff      //check change details
 $ git checkout -b "<new-branch-name>"    //create a new branch and switch to it
 Commit in VS code UI with messages
 create a pull request in bitbucket
+
+other commands:
+$ git stash     //undo local changes
+
