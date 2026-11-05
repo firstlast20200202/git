@@ -11,7 +11,7 @@ git add .
 git commit -m "edit"
 OR
 git commit -am "edit"    //-a means add
-git push 
+git push --set-upstream origin XXXXXXXXXXXXXXX
 
 sync bitbucket:
 get into the repo in local machine
