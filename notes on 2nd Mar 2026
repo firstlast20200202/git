@@ -4,6 +4,8 @@ git restore . \build\setup-iis-local.ps1    //remove changes
 
 git stash    //put changes into a temporary location
 
+git clone <url>    //
+
 git pull    //
 
 git checkout <branch>    //
