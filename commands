@@ -22,7 +22,7 @@ $ git checkout release/xxx.xxx.~~~~~    //switch branch
 
 fix an issue:
 $ git status    //check modified files
-$ git diff      //check change details
+$ git diff  ->  j  ->  q
 $ git checkout -b "<new-branch-name>"    //create a new branch and switch to it
 commit in VS code UI with messages
 create a pull request in bitbucket
