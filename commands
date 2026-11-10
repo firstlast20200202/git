@@ -24,7 +24,7 @@ fix an issue:
 $ git status    //check modified files
 $ git diff      //check change details
 $ git checkout -b "<new-branch-name>"    //create a new branch and switch to it
-Commit in VS code UI with messages
+commit in VS code UI with messages
 create a pull request in bitbucket
 
 other commands:
