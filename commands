@@ -28,7 +28,7 @@ commit in VS code UI with messages
 create a pull request in bitbucket
 
 fix an issue in VS:
-check the branch I'm on at the bottom
+check and switch the branch I'm on at the bottom
 click Git changes -> input a message -> commit all -> push
 
 other commands:
