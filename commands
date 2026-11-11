@@ -20,12 +20,16 @@ $ git pull      //sync
 $ git status    //it shows which branch I'm on
 $ git checkout release/xxx.xxx.~~~~~    //switch branch
 
-fix an issue:
+fix an issue in VS code:
 $ git status    //check modified files
 $ git diff  ->  j  ->  q
 $ git checkout -b "<new-branch-name>"    //create a new branch and switch to it
 commit in VS code UI with messages
 create a pull request in bitbucket
+
+fix an issue in VS:
+check the branch I'm on at the bottom
+click Git changes -> input a message -> commit all -> push
 
 other commands:
 $ git stash     //undo local changes
