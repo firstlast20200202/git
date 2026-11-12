@@ -22,8 +22,11 @@ $ git checkout release/xxx.xxx.~~~~~    //switch branch
 
 fix an issue in VS code:
 $ git status    //check modified files
-$ git diff  ->  j  ->  q
+$ git checkout release/xxx.xxx.~~~~~    //switch branch
+$ git pull      //sync
 $ git checkout -b "<new-branch-name>"    //create a new branch and switch to it
+$ git diff  ->  j  ->  q
+
 commit in VS code UI with messages
 create a pull request in bitbucket
 
