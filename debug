@@ -1,0 +1,4 @@
+create a breakpoint
+get into the application and reproduce the steps: it should stop at the breakpoint
+step over or step in, check variable values in each step
+if it doesnt stop at the breakpoint, it means it's broken before that step
