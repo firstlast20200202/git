@@ -15,8 +15,8 @@ git push --set-upstream origin XXXXXXXXXXXXXXX
 
 sync bitbucket:
 get into the repo in local machine
-$ git fetch
-$ git pull      //sync
+$ git fetch     //download from remote repo without merging
+$ git pull      //git fetch and merge
 $ git status    //it shows which branch I'm on
 $ git checkout release/xxx.xxx.~~~~~    //switch branch
 
@@ -35,21 +35,6 @@ click Git changes -> input a message -> commit all -> push
 
 other commands:
 $ git stash     //undo local changes
-
-
-git fetch    //fetching what's changed
-
-git restore . \build\setup-iis-local.ps1    //remove changes
-
-git stash    //put changes into a temporary location
-
-git clone <url>    //first time get code
-
-git pull    //get the changes from remote repo
-
-git checkout <branch>    //
-
-git checkout -b '<new branch name>'    //
-
-
+$ git restore . \build\setup-iis-local.ps1    //remove changes
+$ git clone <url>    //first time get code
 
