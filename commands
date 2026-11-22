@@ -26,7 +26,7 @@ $ git checkout release/xxx.xxx.~~~~~    //switch branch
 $ git pull      //sync
 $ git checkout -b "<new-branch-name>"    //create a new branch and switch to it
 $ git diff  ->  j  ->  q
-commit in VS code UI with messages
+commit in VS code UI with messages and publish branch
 create a pull request in bitbucket
 
 fix an issue in VS:
