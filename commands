@@ -34,7 +34,7 @@ commit from another ticket which has been committed but not merged yet.
 $ git checkout release/xxx.xxx.~~~~~    //switch branch
 $ git pull      //sync
 to solve the problem:
-$ git rebase -i    //edit or delete commits
+$ git rebase -i <branch-name>    //edit or delete commits
 in the editable output, add 'pick' in front of the commit we want to keep and 'd' to the ones we
 want to withdraw
 $ git push --force
