@@ -34,7 +34,7 @@ commit from another ticket which has been committed but not merged yet.
 $ git checkout release/xxx.xxx.~~~~~    //switch branch
 $ git pull      //sync
 to solve the problem:
-$ git rebate -i    //edit or delete commits
+$ git rebase -i    //edit or delete commits
 
 fix an issue in VS:
 check and switch the branch I'm on at the bottom
@@ -45,3 +45,8 @@ $ git stash     //undo local changes
 $ git restore . \build\setup-iis-local.ps1    //remove changes
 $ git clone <url>    //first time get code
 
+difference of some commands:
+$ git clone      //create a new local repo
+$ git fetch      //download remote changes without modifying our local files
+$ git pull       //download and immediately merge remote changes
+$ git checkout   //switch branch or restore files locally
