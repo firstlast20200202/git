@@ -33,6 +33,8 @@ dont skip these two steps, otherwise when create a pull request in bitbucket it 
 commit from another ticket which has been committed but not merged yet.
 $ git checkout release/xxx.xxx.~~~~~    //switch branch
 $ git pull      //sync
+to solve the problem:
+$ git rebate -i    //edit or delete commits
 
 fix an issue in VS:
 check and switch the branch I'm on at the bottom
