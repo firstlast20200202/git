@@ -32,7 +32,7 @@ note:
 dont skip these two steps, otherwise when create a pull request in bitbucket it would show the 
 commit from another ticket which has been committed but not merged yet.
 $ git checkout release/xxx.xxx.~~~~~    //switch branch
-$ git pull      //sync
+$ git pull      //sync, output would list branches created by other people and updates in the current branch
 to solve the problem:
 $ git rebase -i <branch-name>    //edit or delete commits
 in the editable output, add 'pick' in front of the commits we want to keep and 'd' to the ones we
